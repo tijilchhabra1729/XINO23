@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Xino | Register </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/logo white.png">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="relative overflow-x-hidden">
+
+        <!-- LOADING WRAPPER  -->
+        <div class="loading-wrapper">
+            <div class="loading">
+                <div class="dot dot1"></div>
+                <div class="dot dot2"></div>
+                <div class="dot dot3"></div>
+                <div class="dot dot4"></div>
+              </div>
+        </div>
+
+        <!-- NAVBAR  -->
+        <nav class="navbar w-screen absolute flex py-4 px-16 justify-between items-center z-50">
+            <div class="navbar__logo-container h-24 w-24">
+                <img src="img/logo dark.png" alt="xino logo" class="navbar__logo w-full h-full">
+            </div>
+
+            <div class="navbar__links flex items-center justify-center">
+                <a href="index.htm" class="navbar__link text-gray-500 text-3xl mr-16 hover:text-black">Home</a>
+                <a href="events.htm" class="navbar__link text-gray-500 text-3xl mr-16 hover:text-black">Events</a>
+                <a href="register.htm" class="navbar__link text-gray-500 text-3xl mr-16 hover:text-black">Register</a>
+                <a href="members.htm" class="navbar__link text-gray-500 text-3xl mr-16 hover:text-black">Members</a>
+                       
+            </div>
+            <div class="toggleNav lg:hidden"></div>
+        </nav>
+    
+        <div class="navbar-responsive flex flex-col h-screen w-1/2 justify-center items-center fixed bg-white top-0 right-0 py-8 px-12 z-10 lg:hidden">
+            <a href="index.htm" class="text-6xl text-gray-700 mb-28">Home</a>
+            <a href="events.htm" class="text-6xl text-gray-700 mb-28">Events</a>
+            <a href="register.htm" class="text-6xl text-gray-700 mb-28">Register</a>
+            <a href="members.htm" class="text-6xl text-gray-700 mb-28">Members</a>
+            <div class="dark-toggle">
+                <input type="checkbox" class="dark-toggle__input" id="dark-toggle__input">
+                <label for="dark-toggle__input" class="dark-toggle__btn">
+                    <span class="text-6xl">Dark Mode</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- REGISTER: HERO  -->
+        <main class="register-hero w-screen h-screen relative">
+            <img src="img/side filler.png" alt="side filler" class="register-hero__side absolute h-screen top-0 right-0">
+
+            <div class="register-hero__text absolute top-1/2 px-48">
+                <h2 class="heading-1 mb-8">Register</h2>
+                <p class="register-hero__paragraph w-2/3 text-2xl leading-loose mb-16">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In eaque obcaecati magnam ab iure eum alias sed, distinctio harum dolores voluptas, odio quibusdam numquam itaque fugit sunt! Est, deleniti id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis at, ducimus magni labore repellat atque corporis quasi distinctio vero voluptates fugit hic quos velit quibusdam quidem consequatur porro neque eveniet!
+                </p>
+                <a href="#" class="btn-black mr-24">School</a>
+                <a href="#" class="btn-black">Independent</a>
+            </div>
+        </main>
+
+        <script src="js/app.js" defer></script>
+       
+    </body>
+</html>
