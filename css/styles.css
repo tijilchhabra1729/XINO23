@@ -736,7 +736,7 @@ body {
 .member {
     width: 100%;
     height: 25rem;
-    background-image: url('../img/sample\ team\ image.jpg');
+    ;
     background-size: 100% 100%;
     box-shadow: 5px 5px 4rem rgba(33, 33, 33, .2);
     position: relative;
